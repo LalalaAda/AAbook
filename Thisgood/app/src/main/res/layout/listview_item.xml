@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/transparent">
+
+        <View
+            android:id="@+id/xian"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="#d9d9d9" />
+
+        <ImageView
+            android:id="@+id/imgbill"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/xian"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_query_builder_black" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/rightbillshow_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imgbill"
+            android:text="网购***"
+            android:textColor="#595959"
+            android:textSize="14sp" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/leftbillshow_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/imgbill"
+            android:text="网购***"
+            android:textColor="#595959"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

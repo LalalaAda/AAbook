@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">记账本</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="fragment_one">本日详情</string>
+    <string name="fragment_two">本周详情</string>
+    <string name="fragment_three">本月详情</string>
+    <string name="fragment_four">本年详情</string>
+
+</resources>
